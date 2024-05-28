@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Banner */
+.banner{
+    width: 100%;
+    background-image: url(/assets/banner-bk.jpg);
+    background-repeat: no-repeat;
+}
+
+.barra{
+    height: 70vh;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img{
+    width: 100px;
+    height: 100px;
+    margin: 140px 0 0 135px;
+}
+
+.title_barra{
+    margin: 140px 135px 0 0;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 135px 0 0 135px;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 78px;
+    font-weight: 1000px;
+}
+
+
+.content-text{
+    margin: 30px 0 0 0;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+.boton_get{
+    background: #00ffad;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 60px 0 0 130px;
+    color: black;
+    font-size: 13px;
+}
+/* Fin banner */
+
+/* First content white */
+.content_white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.column{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.content_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_smart{
+    font-size: 60px;
+    margin: 0 0 70px;
+}
+
+.text_span{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Second content */
+.second-content{
+    height: 100vh;
+    background-image: linear-gradient(168deg, #fff 55%, #00ffae 0);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-row{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+.content-inside{
+    display: flex;
+    flex-direction: column;
+    margin: 0 70px 0 0;
+}
+.content-row{
+    margin: 100px 0 0 0;
+}
+.title_inside{
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+.text_inside{
+    font-size: 20px;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    background: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid antiquewhite;
+    margin-top: 50px;
+}
+
+.img_laptop{
+    width: 600px;
+    margin: 50px 0 0 100px;
+}
