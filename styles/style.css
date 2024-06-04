@@ -7,7 +7,7 @@
 
 /* Banner */
 .banner{
-    height: 70vh;
+    height: 100vh;
     width: auto;
     background-image: url(../assets/banner-bk.jpg);
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
     height: 50px;
     padding: 10px;
     border-radius: 30px;
-    margin: 60px 0 0 130px;
+    margin: 50px 0 0 130px;
     color: black;
     font-size: 13px;
 }
@@ -119,6 +119,7 @@
     width: 1200px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 100px 0 0 0;
 
 }
@@ -127,8 +128,10 @@
     width: 1200px;
     display: flex;
     flex-direction: row;
-    margin: 500px 0 0 0;
+    justify-content: center;
+    margin: 400px 0 0 0;
 }
+
 
 .content-inside{
     width: auto;
@@ -157,14 +160,18 @@
 }
 
 .img_laptop{
-    width: 600px;
-    margin: 50px 0 0 100px;
+    width: 400px;
+    margin: 10px 0 0 100px;
 }
 
 .sub-content{
     display: flex;
     flex-direction: column;
     width: auto;
+}
+
+.tablet{
+    width: 400px;
 }
 
 .sub-content{
@@ -189,13 +196,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
 .content_planes{
-    height: 60vh;
-    width: 800px;
+    height: 65vh;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,8 +237,8 @@ span{
 }
 
 .content_planes_premium{
-    height: 60vh;
-    width: 800px;
+    height: 65vh;
+    width: 300px;
     background: #192440;
     display: flex;
     flex-direction: column;
@@ -251,19 +258,25 @@ span{
 
 
 .content-sponsor{
-    height: 20vh;
-    width: 1900px;
+    background: #eceeef;
+    height: 40vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sponsor{
-    height: auto;
-    width: 1200px;
+    height: 15;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.client{
+    width: 170px;
+    height: 60px;
 }
 
 /* contact */
@@ -363,6 +376,12 @@ textarea{
     margin: 0 0 0 350px;
 }
 
+.red{
+    background-color: #fff;
+    border-radius: 100px;
+    width: 45px;
+    height: 40px;
+}
 
 .redes{
     margin: 0 350px 0 0;
@@ -431,9 +450,6 @@ textarea{
     }
 
 
-    .content-sponsor{
-        width: 70%;
-    }
     .content_row{
         width: 500px;
     }
@@ -549,11 +565,11 @@ textarea{
     }
 
     .content-sponsor{
-        width: 1100px;
+        width: 100%;
     }
 
     .sponsor{
-        width: 1000px;
+        width: 750px;
     }
 
     .content-contact{
@@ -562,7 +578,7 @@ textarea{
 
     .contact{
         width: 90%px;
-        margin: 90px 20px 0 0;
+        margin: 90px 20px 0 ;
     }
 
     .title-contact{
@@ -575,6 +591,7 @@ textarea{
 
     .formulario{
         width: 450px;
+        margin-right: 20px;
     }
 
     label{
@@ -595,12 +612,12 @@ textarea{
     }
 
     .footer{
-        margin: 0 0 0 80px;
+        margin: 0 0 0 20px;
         font-size: 20px;
     }
 
     .redes{
-        margin: 0 80px 0 0;
+        margin: 0 20px 0 0;
     }
 }
 
@@ -730,7 +747,7 @@ textarea{
     }
     .content-sponsor{   
         margin-top: 70px;
-        width: 90%;
+        width: 100%;
     }
 
     .content-contact{
@@ -738,7 +755,7 @@ textarea{
     }
 
     .contact{
-        width: 250px;
+        width: 300px;
         margin: 90px 20px 0 0;
     }
 
@@ -752,6 +769,7 @@ textarea{
 
     .formulario{
         width: 450px;
+        margin: 0;
     }
 
     textarea{
@@ -771,7 +789,7 @@ textarea{
     }
 
     .footer{
-        margin: 0 0 0  100px;
+        margin: 0 0 0 85px;
     }
 
     .text-copy{
@@ -779,20 +797,42 @@ textarea{
     }
 
     .redes{
-        margin: 0 100px 0 0;
+        margin: 0 85px 0 0;
     }
     
 }
 
 @media screen and (max-width: 769px) {
+    .banner{
+        width: 100%;
+    }
+
+    .content{
+        margin: 120px 0 0 50px;
+    }
+
     .logo_img{
-        margin: 160px 0 0 100px;
+        margin: 160px 0 0 50px;
         height: 60px;
         width: 60px;
     }
 
-    .content{
-        margin: 120px 0 0 100px;
+    .content_white{
+        width: 100%;
+    }
+
+    .img_anti_spam{
+        width: 150px;
+        height: 150px;
+    }
+
+    .img_detect{
+        width: 150px;
+        height: 150px;
+    }
+
+    .text_span{
+        margin: 7px;
     }
 
     .title{
@@ -804,12 +844,13 @@ textarea{
     }
 
     .boton_get{
-        margin: 30px 0 0 100px;
+        margin: 30px 0 0 50px;
     }
 
     .title_smart{
-        font-size: 40px;
+        font-size: 30px;
     }
+
 
     .content_planes{
         height: 450px;
@@ -836,8 +877,8 @@ textarea{
     }
 
     .client{
-        height: 100px;
-        width: 100px;
+        height: 95px;
+        width: 80px;
     }
 
     .title-contact{
@@ -846,6 +887,10 @@ textarea{
 
     .text{
         font-size: 15px;
+    }
+
+    .contact{
+        margin: 90px 20px 0 ;
     }
 
     .formulario{
@@ -858,11 +903,11 @@ textarea{
 
     .footer{
         font-size: 15px;
-        margin: 0 0 0 70px;
+        margin: 0 0 0 20px;
     }
 
     .redes{
-        margin: 0 7 0px 0 0;
+        margin: 0 7px 0 0;
     }
 }
 
@@ -935,6 +980,14 @@ textarea{
         height: 770px;
     }
 
+    .content_planes{
+        width: 100px;
+    }
+
+    .content_planes_premium{
+        width: 100px;
+    }
+
     .title-startup{
         font-size: 24px;
     }
@@ -949,8 +1002,8 @@ textarea{
     }
 
     .client{
-        width: 80px;
-        height: 70px;
+        width: 50px;
+        height: 60px;
     }
 
     .formulario{
@@ -958,20 +1011,21 @@ textarea{
     }
 
     input{
-        width: 170px;
+        width: 120px;
     }
 
     textarea{
-        width: 170px;
+        width: 120px;
     }
 
     .footer{
-        margin: 0 0 0 5px;
+        margin: 0 0 0 30px;
     }
 
     .redes{
-        margin: 0 2px 0 0;
+        margin: 0;
     }
+
 }
 
 @media screen and (max-width: 352px) {
@@ -999,11 +1053,11 @@ textarea{
     }
 
     .content_planes{
-        height: 370px;
+        height: 380px;
     }
 
     .content_planes_premium{
-        height: 370px;
+        height: 380px;
     }
 
 
@@ -1011,13 +1065,16 @@ textarea{
         width: 80px;
     }
 
+    .column{
+        width: 90%;
+    }
 
     span{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .title-startup{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .text_startup{
@@ -1040,13 +1097,13 @@ textarea{
     }
 
     .contact{
-        margin: 40px 0 0 0;
-        width: 330px;
+        margin: 10px 0 0 20px;
+        width: auto;
         height: 170px;
     }
 
     .title-contact{
-        font-size: 17px;
+        font-size: 30px;
     }
 
     .text{
@@ -1056,7 +1113,7 @@ textarea{
 
     .formulario{
         height: 200px;
-        width: 330px;
+        width: 300px;
     }
 
     label{
@@ -1068,17 +1125,17 @@ textarea{
     }
 
     textarea{
-        width: auto;
+        width: 280px;
         height: 28px;
     }
 
     .enviar{
-        margin: 13px 0 0 0;
+        margin: 10px;
         height: 30px;
     }
 
     .footer{
-        margin: 5px;
+        margin: 0 0 0 10px;
     }
 
     .text-copy{
@@ -1086,6 +1143,6 @@ textarea{
     }
 
     .redes{
-        margin: 0 5px 0 0;
+        margin: 0;
     }
 }
